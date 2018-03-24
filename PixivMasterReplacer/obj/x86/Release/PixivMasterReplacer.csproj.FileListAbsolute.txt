@@ -22,3 +22,4 @@ G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Releas
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Release\PixivMasterReplacer.application
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Release\PixivMasterReplacer.exe
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Release\PixivMasterReplacer.pdb
+G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Release\PixivMasterReplacer.csprojResolveAssemblyReference.cache
