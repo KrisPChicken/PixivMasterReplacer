@@ -19,3 +19,7 @@ G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Debug\
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\bin\Debug\HtmlAgilityPack.dll
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\bin\Debug\HtmlAgilityPack.pdb
 G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\bin\Debug\HtmlAgilityPack.xml
+G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\bin\Debug\PixivMasterReplacer.exe.manifest
+G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\bin\Debug\PixivMasterReplacer.application
+G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Debug\PixivMasterReplacer.exe.manifest
+G:\Visual Studio Projects\PixivMasterReplacer\PixivMasterReplacer\obj\x86\Debug\PixivMasterReplacer.application
