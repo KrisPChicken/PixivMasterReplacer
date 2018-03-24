@@ -22,7 +22,9 @@ namespace PixivMasterReplacer
         List<PixivMaster> pixivMasterList = new List<PixivMaster>();
         List<string> failureList = new List<string>();
         string[] folderPaths;
-
+        string user = "";
+        string pass = "";
+            
         public Form1()
         {
             InitializeComponent();
@@ -62,6 +64,9 @@ namespace PixivMasterReplacer
             if (string.IsNullOrWhiteSpace(username.Text)) { MessageBox.Show("Enter username"); return; }
             if (string.IsNullOrWhiteSpace(password.Text)) { MessageBox.Show("Enter password"); return; }
             if (string.IsNullOrWhiteSpace(textBox1.Text)) { MessageBox.Show("Choose a folder"); return; }
+
+            user = username.Text;
+            pass = password.Text;
 
             createListOfMasters();
             downloadNonMasters();
@@ -103,10 +108,9 @@ namespace PixivMasterReplacer
                 client.Headers.Set("Authorization", "Bearer 8mMXXWT9iuwdJvsVIvQsFYDwuZpRCMePeyagSh30ZdU");
                 client.Headers.Set("client_id", "bYGKuGVw91e0NMfPGp44euvGt59s");
                 client.Headers.Set("client_secret", "HP3RmkgAmEGro0gn1x9ioawQE8WMfvLXDz3ZqxpK");
-                client.Headers.Set("username", "jockman452");   //HARDCODED CHANGE LATER
-                client.Headers.Set("password", "925438143");    //HARDCODED CHANGE LATER
-                client.Headers.Set("grant_type", "password");   //HARDCODED CHANGE LATER
-
+                client.Headers.Set("username", user);   
+                client.Headers.Set("password", pass);    
+                client.Headers.Set("grant_type", "password");  
 
                 foreach (PixivMaster pMaster in pixivMasterList)
                 {
