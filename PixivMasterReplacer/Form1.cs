@@ -139,7 +139,7 @@ namespace PixivMasterReplacer
                             client.DownloadFile(correctUrl, pMaster.savePath + fileType);
 
                             //Success! Delete master then continue to next image
-                            //File.Delete(pMaster.filePath + "\\" + pMaster.fileName); //filepath + filename
+                            File.Delete(pMaster.filePath + "\\" + pMaster.fileName); //filepath + filename
                             break;
                         }
                         catch (WebException ex)
